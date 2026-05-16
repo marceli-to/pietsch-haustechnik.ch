@@ -1,0 +1,64 @@
+@import url("https://use.typekit.net/oym6bog.css");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+@import 'tailwindcss';
+
+@import './colors.css';
+@import './fonts.css';
+@import './fontsize.css';
+@import './spacing.css';
+
+@source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
+@source '../../storage/framework/views/*.php';
+@source '../**/*.blade.php';  
+@source '../**/*.js';
+
+@utility bg-gradient-y {
+  @apply bg-linear-to-b from-sky/0 from-0% to-navy to-82%;
+}
+
+@utility bg-gradient-x {
+  @apply bg-linear-to-r from-navy to-sky;
+}
+
+strong {
+  @apply font-bold;
+}
+
+p:not(:last-of-type){
+  @apply mb-16 md:mb-24;
+}
+
+main ul {
+  @apply mb-16 md:mb-24 pl-20;
+}
+
+main li {
+  @apply mb-5 list-item list-disc
+}
+
+/* Swiper: ensure slides fill their container */
+.swiper,
+.swiper-wrapper,
+.swiper-slide {
+  @apply h-full;
+}
+
+/* Swiper pagination dots */
+.swiper-pagination {
+  @apply flex justify-center gap-8;
+}
+
+.swiper-pagination-bullet {
+  @apply w-8 h-8 rounded-full bg-white/30 cursor-pointer transition-opacity;
+}
+
+.swiper-pagination-bullet-active {
+  @apply bg-white;
+}
+
+/* Prevent flash of unstyled content before ScrollReveal initialises */
+[data-reveal],
+[data-reveal-down],
+[data-reveal-children] > * {
+  @apply invisible;
+}
