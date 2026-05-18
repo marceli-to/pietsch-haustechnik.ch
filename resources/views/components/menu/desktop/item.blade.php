@@ -7,7 +7,7 @@
   <a 
     href="{{ $href }}"
     aria-label="{{ $title }}"
-    class="text-dew text-3xl uppercase leading-none hover:text-white transition-colors {{ $active ? 'text-white' : '' }}">
+    class="{{ $active ? '' : '' }}">
     {{ $title }}
   </a>
 </li>

@@ -1,1 +1,0 @@
-<img src="/img/logo-mpk.png" width="300" height="123" alt="Logo Migros Pensionskasse" class="{{ $class ?? '' }}">

@@ -1,3 +1,3 @@
-<h3 class="font-bold {{ $class ?? '' }}">
+<h3 class="{{ $class ?? '' }}">
   {{ $slot }}
 </h3>

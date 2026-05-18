@@ -1,15 +1,6 @@
 @theme {
-  --color-forest: #003934;
-  --color-dew: #BDCD9A;
-  --color-sand: #EBF0DF;
-  --color-cream: #FBF8EC;
-  
-  --color-state-free: #0DAD23;
-  --color-state-reserved: #E69600;
-  --color-state-taken: #FF0000;
-
   --color-navy: #00325D;
   --color-sky: #82B1DD;
-
+  --color-cloud: #ECECEC;
 }
 

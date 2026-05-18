@@ -1,5 +1,5 @@
 <body 
-  class="antialiased bg-cream font-inter text-forest text-xl md:text-2xl leading-[1.25] flex flex-col min-h-screen"
+  class="antialiased flex flex-col min-h-screen font-sans leading-[1.25]"
   x-data="{ menu: false }">
   {{ $slot }}
 </body>

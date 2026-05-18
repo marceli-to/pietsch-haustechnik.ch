@@ -1,58 +1,40 @@
 @extends('app')
-@section('meta_description', 'Moderne 1.5- bis 3.5-Zimmerwohnungen an der Pappelstrasse 2/4 in Dietlikon – bezugsbereit ab Herbst 2026.')
+@section('meta_description', '')
 
 @section('content')
+<div class="min-h-dvh relative">
+  <x-media.visual image="pietsch-haustechnik-visual" alt="Pietsch Haustechnik" />
 
-  <x-media.visual image="pappelstrasse-visual-landing" alt="" />
+  <div class="absolute bottom-64 md:bottom-auto md:top-1/2 md:-translate-y-1/2 left-1/2 -translate-x-1/2 w-full md:max-w-[680px] flex flex-col items-center gap-y-50 z-20">
+    <x-icons.logo variant="neg" class="w-300 md:w-[560px] h-112 md:h-[208px] text-white" />
+    <div class="flex flex-col gap-y-20">
+      <span class="text-cloud font-bold text-[30px] md:text-[40px] text-center text-balance leading-[1.15]">
+        Moderne Haustechnik. Präzise umgesetzt.
+      </span>
+      <span class="text-cloud text-[20px] text-center text-pretty px-30">
+        Seit über 25 Jahren Ihr kompetenter Partner für Sanitär-, Heizungs- und Solaranlagen im Zürcher Oberland.
+      </span>
+    </div>
+  </div>
 
-  <section data-scroll-target class="bg-dew text-forest text-xs md:text-2xl w-full py-30 lg:py-40 md:scroll-mt-80">
+</div>
 
-    <x-layout.inner>
-
-      <div class="grid grid-cols-2 gap-30 md:flex md:flex-row md:gap-60 lg:gap-80 md:justify-center md:items-start" data-reveal-children>
-        <x-cards.feature label="Zentrale Lage">
-          <x-icons.location class="w-40 h-auto" />
-        </x-cards.feature>
-        <x-cards.feature label="Naturnahe Umgebung">
-          <x-icons.nature class="w-40 h-auto" />
-        </x-cards.feature>
-        <x-cards.feature label="Hochwertiger<br>Ausbaustandard" class="col-span-full">
-          <x-icons.sparkle class="w-44 h-auto" />
-        </x-cards.feature>
-      </div>
-
-    </x-layout.inner>
-
-  </section>
-
-  <x-sections.hero-split>
-
-    <x-headings.h1>
-      Wohnen und Leben<br>in Dietlikon
-    </x-headings.h1>
-
-    <p>Mit dem Neubauprojekt an der Pappelstrasse 2/4 entstehen nahe des Bahnhof Dietlikon 48 moderne 1.5- bis 3.5-Zimmerwohnungen, die ab 1. November 2026 bezugsbereit sind. Zwei elegant gestaltete, klar gegliederte Gebäude prägen das neue Ensemble und verleihen ihm mit ihren vertikalen Fassadenelementen und grosszügigen Fensterfronten eine zeitgemässe, urbane Ausstrahlung.</p>
-
-
-
-    <x-slot:aside>
-      <x-gallery.carousel name="gallery" :images="[
-        '/img/pappelstrasse-visualisierung-02',
-        '/img/pappelstrasse-visualisierung-03',
-        '/img/pappelstrasse-visualisierung-wohnung-05',
-        '/img/pappelstrasse-visualisierung-wohnung-03',
-        '/img/pappelstrasse-visualisierung-wohnung-02',
-      ]" />
-    </x-slot:aside>
-
-  </x-sections.hero-split>
-
-  <x-sections.highlights title="Highlights" :items="[
-    'Moderne Wohnungen',
-    'Badezimmer mit Dusche oder Badewanne',
-    'Eigener Waschturm',
-    'Grosszügige Aussenbereiche',
-    'Dachgarten',
-  ]" />
-
+<div class="bg-navy md:bg-transparent text-cloud md:absolute z-20 md:w-auto md:left-1/2 md:-translate-x-1/2 md:bottom-72">
+  <x-layout.inner class="p-30 pt-0 md:p-0">
+    <div class="grid grid-cols-2 gap-20 md:flex md:flex-row md:gap-60 md:justify-center md:items-start" data-reveal-children>
+      <x-cards.feature label="Persönliche<br>Beratung">
+        <x-icons.consultancy class="w-50 h-auto" />
+      </x-cards.feature>
+      <x-cards.feature label="Fachmännische<br>Installation">
+        <x-icons.installation class="w-48 h-auto" />
+      </x-cards.feature>
+      <x-cards.feature label="Nachhaltige<br>Qualität">
+        <x-icons.sustainability class="w-50 h-auto" />
+      </x-cards.feature>
+      <x-cards.feature label="Regionaler<br>Service">
+        <x-icons.service class="w-44 h-auto" />
+      </x-cards.feature>
+    </div>
+  </x-layout.inner>
+</div>
 @endsection
