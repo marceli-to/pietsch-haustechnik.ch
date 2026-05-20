@@ -11,8 +11,16 @@
 @source '../**/*.blade.php';  
 @source '../**/*.js';
 
+@theme {
+  --container-page: 100rem;
+}
+
 @utility bg-gradient-y {
   @apply bg-linear-to-b from-sky/0 from-0% to-navy to-82%;
+}
+
+@utility bg-gradient-y-reverse {
+  @apply bg-linear-to-b from-navy to-sky;
 }
 
 @utility bg-gradient-x {
@@ -44,15 +52,15 @@ main li {
 
 /* Swiper pagination dots */
 .swiper-pagination {
-  @apply flex justify-center gap-8;
+  @apply flex justify-center gap-5;
 }
 
 .swiper-pagination-bullet {
-  @apply w-8 h-8 rounded-full bg-white/30 cursor-pointer transition-opacity;
+  @apply w-10 h-10 rounded-full border border-cloud bg-transparent cursor-pointer transition-opacity;
 }
 
 .swiper-pagination-bullet-active {
-  @apply bg-white;
+  @apply bg-cloud;
 }
 
 /* Prevent flash of unstyled content before ScrollReveal initialises */

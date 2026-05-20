@@ -1,11 +1,12 @@
 @props([
-  'name' => 'gallery',
   'images' => [],
   'class' => '',
 ])
 
-<div class="relative aspect-[4/3] lg:aspect-auto lg:h-full {{ $class }}">
-  <x-swiper.wrapper class="{{ $name }}-swiper">
+<div 
+  data-gallery 
+  class="relative {{ $class }}">
+  <x-swiper.wrapper>
     @foreach($images as $image)
       <x-swiper.slide>
         <picture class="block w-full h-full">
@@ -16,7 +17,8 @@
       </x-swiper.slide>
     @endforeach
   </x-swiper.wrapper>
-  <x-swiper.buttons.prev class="{{ $name }}-swiper-prev" />
-  <x-swiper.buttons.next class="{{ $name }}-swiper-next" />
-  <div class="{{ $name }}-swiper-pagination swiper-pagination absolute bottom-12 left-0 right-0 z-10"></div>
+  <x-swiper.buttons.prev class="z-40" />
+  <x-swiper.buttons.next class="z-40" />
+  {{ $slot }}
+  <div class="swiper-pagination absolute bottom-15 left-0 right-0 z-40"></div>
 </div>

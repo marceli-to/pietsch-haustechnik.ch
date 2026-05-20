@@ -1,0 +1,3 @@
+<svg viewBox="0 0 10 19" fill="none" xmlns="http://www.w3.org/2000/svg" class="{{ $class ?? '' }}">
+  <path d="M9.1442 17.55L1.0242 9.81085C0.937282 9.72415 0.868322 9.62115 0.82127 9.50776C0.774218 9.39437 0.749999 9.27281 0.749999 9.15005C0.749999 9.02728 0.774218 8.90572 0.82127 8.79233C0.868322 8.67894 0.937282 8.57595 1.0242 8.48925L9.1442 0.750046" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
