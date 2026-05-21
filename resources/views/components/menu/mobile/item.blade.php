@@ -4,10 +4,11 @@
   'title' => null,
 ])
 <li>
-  <a 
+  <a
     href="{{ $href }}"
+    @click="menu = false"
     aria-label="{{ $title }}"
-    class="{{ $active ? '' : '' }}">
+    class="font-bold text-[28px] hover:text-sky {{ $active ? 'text-sky' : 'text-cloud' }}">
     {{ $title }}
   </a>
 </li>

@@ -6,7 +6,7 @@
 
       <div class="flex flex-col md:flex-row items-center md:items-end md:justify-start gap-y-30 md:gap-y-0 md:gap-x-30 lg:gap-x-60 md:col-span-9">
 
-        <x-icons.logo variant="pos" class="w-160 h-auto mx-auto md:mx-0" />
+        <x-icons.logo variant="pos" class="w-160 h-60 mx-auto md:mx-0" />
 
         <div class="flex flex-col md:flex-row gap-y-15 md:gap-y-0 md:gap-x-30 lg:gap-x-60">
 

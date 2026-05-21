@@ -1,6 +1,6 @@
 <div class="{{ $class ?? '' }}">
   <nav>
-    <ul class="">
+    <ul class="flex gap-x-40 lg:gap-x-80">
 
       <x-menu.desktop.item
         href="{{ route('page.services') }}"

@@ -1,7 +1,7 @@
 @props(['variant' => 'pos'])
 
 @php
-  $gradientId = 'logo-gradient-' . $variant;
+  $gradientId = 'logo-gradient-' . $variant . '-' . \Illuminate\Support\Str::random(8);
   $gradientStops = $variant === 'neg'
     ? ['#82b1dd', '#00325d']
     : ['#00325d', '#82b1dd'];
