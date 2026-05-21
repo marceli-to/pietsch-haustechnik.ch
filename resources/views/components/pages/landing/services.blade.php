@@ -1,4 +1,5 @@
 <section class="bg-cloud">
+  <div data-reveal>
    <x-layout.inner class="px-30 py-60 lg:py-100">
       <x-headings.h2>
         Dienstleistungen
@@ -43,4 +44,5 @@
       </div>
 
    </x-layout.inner>
+  </div>
 </section>
