@@ -1,7 +1,7 @@
 <div 
   x-cloak 
   x-show="menu"
-  class="fixed inset-0 z-50 flex items-center justify-center w-full h-dvh md:!hidden">
+  class="fixed inset-0 z-50 flex items-center justify-center w-full h-dvh md:hidden!">
 
   <nav>
     <ul class="flex flex-col gap-y-48 items-center">

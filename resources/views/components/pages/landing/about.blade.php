@@ -5,8 +5,8 @@
       <source srcset="/img/{{ $image }}.webp" type="image/webp"> --}}
       <img
         src="/img/pietsch-haustechnik-visual-about.jpg"
-        alt="Pietsch Haustechnik"
-        title="Pietsch Haustechnik"
+        alt="Pietsch Haustechnik Über uns"
+        aria-label="Pietsch Haustechnik Über uns"
         width="960"
         height="792"
         class="w-full h-full aspect-3/4 md:aspect-square object-cover block relative z-0">

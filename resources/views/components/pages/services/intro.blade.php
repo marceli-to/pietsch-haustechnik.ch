@@ -1,6 +1,6 @@
 <section>
   <x-layout.inner class="px-30 py-60 lg:py-100">
-    <x-headings.h2>
+    <x-headings.h2 class="mb-10! lg:mb-15!">
       Dienstleistungen
     </x-headings.h2>
     <x-layout.article>
