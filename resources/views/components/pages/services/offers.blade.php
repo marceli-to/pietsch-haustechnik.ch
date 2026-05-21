@@ -18,5 +18,6 @@
       title="Solaranlage"
       description="Mit thermischen Solaranlagen bieten wir nachhaltige Lösungen für Warmwasser und die Unterstützung der Heizung."
       list="Warmwasseraufbereitung<br>Heizungsunterstützung<br>Nachhaltige Wärmelösung" />
+      
   </div>
 </section>

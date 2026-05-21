@@ -1,4 +1,4 @@
-<section>
+<section class="bg-cloud">
   <x-layout.inner class="px-30 pt-60 lg:pt-100">
 
     <x-headings.h2 class="mb-10! lg:mb-15!">

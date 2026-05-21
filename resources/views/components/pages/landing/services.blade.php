@@ -1,4 +1,4 @@
-<section>
+<section class="bg-cloud">
    <x-layout.inner class="px-30 py-60 lg:py-100">
       <x-headings.h2>
         Dienstleistungen

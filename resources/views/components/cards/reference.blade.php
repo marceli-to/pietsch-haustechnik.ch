@@ -7,7 +7,7 @@
 <div>
   <x-gallery.carousel class="aspect-square" :images="$images">
     <div class="absolute inset-0 z-10 flex flex-col justify-end pl-30 pb-45 text-cloud bg-black/20">
-      <x-headings.h3 class="mb-5">
+      <x-headings.h3 class="mb-5 text-left!">
         {{ $title }}
       </x-headings.h3>
       <p class="text-[16px]">
