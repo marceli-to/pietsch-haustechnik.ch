@@ -69,3 +69,8 @@ main li {
 [data-reveal-children] > * {
   @apply invisible;
 }
+
+@keyframes fade-in {
+  from { opacity: 0; }
+}
+
