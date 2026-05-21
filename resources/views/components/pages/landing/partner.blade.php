@@ -1,6 +1,6 @@
 <section class="bg-gradient-y-reverse">
   <x-layout.inner class="px-30 pt-20 pb-30 lg:pt-40 lg:pb-50">
-    <x-headings.h2 class="text-[40px] lg:text-[45px] text-center mb-20 lg:mb-40 text-cloud">
+    <x-headings.h2 class="text-cloud">
       Partner
     </x-headings.h2>
     <div class="grid grid-cols-2 md:flex md:flex-wrap max-w-[330px] md:max-w-4xl lg:max-w-5xl md:justify-center mx-auto gap-20">

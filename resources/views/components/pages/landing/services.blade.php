@@ -1,11 +1,11 @@
 <section>
    <x-layout.inner class="px-30 py-60 lg:py-100">
-      <x-headings.h2 class="text-[40px] lg:text-[45px] text-center mb-20 lg:mb-40">
+      <x-headings.h2>
         Dienstleistungen
       </x-headings.h2>
       <div class="flex flex-col lg:flex-row gap-y-40 lg:gap-y-0 lg:gap-x-64">
         <div>
-          <x-headings.h3 class="text-[24px] md:text-[30px]] text-center mb-0">
+          <x-headings.h3 class="mb-0">
             Sanitär
           </x-headings.h3>
           <x-bar class="h-6 max-w-[75%] mx-auto my-15" />
@@ -14,7 +14,7 @@
           </p>
         </div>
         <div>
-          <x-headings.h3 class="text-[24px] md:text-[30px]] text-center mb-0">
+          <x-headings.h3 class="mb-0">
             Heizung
           </x-headings.h3>
           <x-bar class="h-6 max-w-[75%] mx-auto my-15" />
@@ -23,7 +23,7 @@
           </p>
         </div>
         <div>
-          <x-headings.h3 class="text-[24px] md:text-[30px]] text-center mb-0">
+          <x-headings.h3 class="mb-0">
             Solaranlage
           </x-headings.h3>
           <x-bar class="h-6 max-w-[75%] mx-auto my-15" />
@@ -34,7 +34,10 @@
       </div>
 
       <div class="flex justify-center mt-40 lg:mt-50">
-        <x-buttons.primary href="#" class="inline-flex w-auto">
+        <x-buttons.primary 
+          href="{{ route('page.services') }}" 
+          class="inline-flex w-auto"
+          title="Erfahren Sie mehr über unsere Dienstleistungen">
           Mehr erfahren
         </x-buttons.primary>
       </div>

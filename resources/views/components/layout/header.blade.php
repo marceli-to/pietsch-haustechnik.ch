@@ -1,4 +1,4 @@
-<header class="bg-navy w-full sticky top-0 z-50 min-h-80 !hidden md:block">
+<header class="bg-navy w-full sticky top-0 z-50 min-h-80 hidden _md:block">
   <x-layout.inner class="min-h-80 flex justify-center items-center relative">
     @if (!request()->routeIs('page.landing'))
       <a href="{{ route('page.landing') }}" class="absolute top-16 left-24 text-white">
@@ -10,7 +10,7 @@
 </header>
 
 @if (!request()->routeIs('page.landing'))
-  <header class="md:hidden bg-navy min-h-80 relative top-0 left-0">
+  <header class="hidden bg-navy min-h-80 relative top-0 left-0">
     <a href="{{ route('page.landing') }}" class="absolute top-16 left-24 text-white">
       <x-icons.logo class="w-66 h-auto" />
     </a>  
