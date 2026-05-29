@@ -4,9 +4,9 @@
 @section('content')
 
 <section>
-  <x-layout.inner class="px-30 pt-200 pb-60 lg:py-100 text-[18px]">
+  <x-layout.inner class="px-30 pt-200 pb-60 lg:py-100 text-md">
     <div class="max-w-4xl">
-      <x-headings.h1 class="text-left! text-[24px]! lg:text-[30px]!">
+      <x-headings.h1 class="text-left! text-xl! lg:text-3xl!">
         Impressum
       </x-headings.h1>
       <p>

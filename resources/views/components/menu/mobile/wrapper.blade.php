@@ -40,7 +40,7 @@
     </ul>
   </nav>
 
-  <div class="pb-60 px-30 flex flex-col items-center gap-y-10 text-[16px] shrink-0">
+  <div class="pb-60 px-30 flex flex-col items-center gap-y-10 text-sm shrink-0">
     <a
       href="tel:044 950 04 55"
       aria-label="Rufen Sie uns an"

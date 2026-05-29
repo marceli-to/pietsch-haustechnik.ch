@@ -10,7 +10,7 @@
       <x-headings.h3 class="mb-5 text-left!">
         {{ $title }}
       </x-headings.h3>
-      <p class="text-[16px]">
+      <p class="text-sm">
         {!! $meta !!}
       </p>
     </div>

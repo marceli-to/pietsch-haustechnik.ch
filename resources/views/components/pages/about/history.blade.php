@@ -2,7 +2,7 @@
   <div data-reveal>
     <x-layout.inner class="px-30 py-60 lg:py-100">
       
-      <x-headings.h2 class="text-[24px]! lg:text-[30px]! mb-10! lg:mb-15!">
+      <x-headings.h2 class="text-xl! lg:text-3xl! mb-10! lg:mb-15!">
         Unsere Geschichte
       </x-headings.h2>
 

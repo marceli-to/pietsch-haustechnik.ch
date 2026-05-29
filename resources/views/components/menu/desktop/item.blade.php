@@ -7,7 +7,7 @@
   <a 
     href="{{ $href }}"
     aria-label="{{ $title }}"
-    class="font-bold text-[24px] hover:text-sky {{ $active ? 'text-sky' : 'text-cloud' }}">
+    class="font-bold text-xl hover:text-sky {{ $active ? 'text-sky' : 'text-cloud' }}">
     {{ $title }}
   </a>
 </li>

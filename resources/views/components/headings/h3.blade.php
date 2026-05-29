@@ -1,3 +1,3 @@
-<h3 class="font-bold text-[24px] md:text-[30px] text-center {{ $class ?? '' }}">
+<h3 class="font-bold text-xl md:text-3xl text-center {{ $class ?? '' }}">
   {{ $slot }}
 </h3>

@@ -24,7 +24,7 @@
   </div>
 
   <div class="text-center mt-15">
-    <x-headings.h3 class="text-[20px]!">
+    <x-headings.h3 class="text-lg!">
       {{ $name }}
     </x-headings.h3>
     <div>

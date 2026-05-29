@@ -1,5 +1,5 @@
 <body 
-  class="antialiased flex flex-col min-h-screen text-navy font-sans text-[20px] leading-[1.25]"
+  class="antialiased flex flex-col min-h-screen text-navy font-sans text-lg leading-[1.25]"
   x-data="{ menu: false }">
   {{ $slot }}
 </body>

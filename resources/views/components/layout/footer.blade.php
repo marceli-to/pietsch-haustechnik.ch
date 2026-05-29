@@ -2,7 +2,7 @@
 
   <x-layout.inner class="p-30 lg:pb-60">
 
-    <div class="flex flex-col items-center md:items-end md:grid md:grid-cols-12 gap-y-30 text-[16px]">
+    <div class="flex flex-col items-center md:items-end md:grid md:grid-cols-12 gap-y-30 text-sm">
 
       <div class="flex flex-col md:flex-row items-center md:items-end md:justify-start gap-y-30 md:gap-y-0 md:gap-x-30 lg:gap-x-60 md:col-span-9">
 
