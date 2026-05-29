@@ -6,7 +6,7 @@
         Referenzen
       </x-headings.h2>
 
-      <x-gallery.items all="false" />
+      <x-gallery.items :limit="3" />
 
       <div class="flex justify-center mt-40 lg:mt-50">
         <x-buttons.primary 

@@ -9,6 +9,16 @@
   x-transition:leave-end="opacity-0"
   class="fixed inset-0 z-40 bg-navy w-full h-dvh md:hidden! flex flex-col text-cloud">
 
+  <div class="pt-70 px-30 flex justify-center shrink-0">
+    <a
+      href="{{ route('page.landing') }}"
+      @click="menu = false"
+      aria-label="Zurück zur Startseite"
+      class="block w-161 h-60">
+      <x-icons.logo class="w-full h-auto" variant="neg" />
+    </a>
+  </div>
+
   <nav class="flex-1 flex items-center justify-center px-30">
     <ul class="flex flex-col gap-y-30 items-center text-center">
 

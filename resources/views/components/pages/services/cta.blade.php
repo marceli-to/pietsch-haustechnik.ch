@@ -2,7 +2,7 @@
   <div data-reveal>
     <x-layout.inner class="px-30 py-50">
 
-      <x-headings.h2 class="text-white mb-15! lg:mb-20!">
+      <x-headings.h2 class="text-white text-[24px]! lg:text-[30px]! mb-15! lg:mb-20!">
         Haben wir Ihr<br>Interesse geweckt?
       </x-headings.h2>
 
