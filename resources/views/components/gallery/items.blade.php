@@ -6,16 +6,15 @@
 @php
   $references = [
     [
-      'title' => 'Heizungsinstallation',
-      'meta' => 'Rüti – 2020<br>Mehrfamilienhaus (74 Wohnungen)',
+      'title' => 'Heizungssanierung',
+      'meta' => 'Hittnau Bünkliholzweg – 2024 bis 2025<br>Mehrfamilienhaus (6 Eigentumswohnungen)',
       'images' => [
-        '/img/referenzen/pietsch-haustechnik-referenzen-rueti-sechten-01',
-        '/img/referenzen/pietsch-haustechnik-referenzen-rueti-sechten-02',
+        '/img/referenzen/pietsch-haustechnik-referenzen-hittnau-buenkliholz-01',
       ],
     ],
     [
       'title' => 'Heizungsinstallation',
-      'meta' => 'Hittnau – 2025<br>Mehrfamilienhaus',
+      'meta' => 'Hittnau Laetenstrasse – 2023 bis 2024<br>Mehrfamilienhaus (8 Mietwohnungen)',
       'images' => [
         '/img/referenzen/pietsch-haustechnik-referenzen-hittnau-laetenstrasse-01',
         '/img/referenzen/pietsch-haustechnik-referenzen-hittnau-laetenstrasse-02',
@@ -23,29 +22,22 @@
     ],
     [
       'title' => 'Heizungsinstallation',
-      'meta' => 'Saland – 2015<br>Wohn- und Gewerbehaus',
+      'meta' => 'Rüti Sechten – 2018 bis 2020<br>Mehrfamilienhaus (74 Wohnungen)',
       'images' => [
-        '/img/referenzen/pietsch-haustechnik-referenzen-saland-01',
-        '/img/referenzen/pietsch-haustechnik-referenzen-saland-02',
+        '/img/referenzen/pietsch-haustechnik-referenzen-rueti-sechten-01',
+        '/img/referenzen/pietsch-haustechnik-referenzen-rueti-sechten-02',
       ],
     ],
     [
       'title' => 'Heizungsinstallation',
-      'meta' => 'Hittnau – 2025<br>Mehrfamilienhaus',
-      'images' => [
-        '/img/referenzen/pietsch-haustechnik-referenzen-hittnau-buenkliholz-01',
-      ],
-    ],
-    [
-      'title' => 'Heizungsinstallation',
-      'meta' => 'Hittnau – 2025<br>Mehrfamilienhaus',
+      'meta' => 'Hittnau Fohlenhof – 2018 bis 2019<br>Mehrfamilienhaus (11 Mietwohnungen)',
       'images' => [
         '/img/referenzen/pietsch-haustechnik-referenzen-hittnau-fohlenhof-01',
       ],
     ],
     [
-      'title' => 'Heizungsinstallation',
-      'meta' => 'Dürnten – 2015<br>Wohn- und Gewerbehaus',
+      'title' => 'Sanitär- und Heizungsinstallation',
+      'meta' => 'Dürnten – 2015 bis 2016<br>Einfamilienhaus',
       'images' => [
         '/img/referenzen/pietsch-haustechnik-referenzen-duernten-eschberg-01',
         '/img/referenzen/pietsch-haustechnik-referenzen-duernten-eschberg-02',
@@ -55,7 +47,15 @@
     ],
     [
       'title' => 'Heizungsinstallation',
-      'meta' => 'Tann – 2015<br>Wohn- und Gewerbehaus',
+      'meta' => 'Saland – 2014 bis 2015<br>Wohn- und Gewerbehaus',
+      'images' => [
+        '/img/referenzen/pietsch-haustechnik-referenzen-saland-01',
+        '/img/referenzen/pietsch-haustechnik-referenzen-saland-02',
+      ],
+    ],
+    [
+      'title' => 'Heizungsinstallation',
+      'meta' => 'Tann Chrähbühl<br>Mehrfamilienhaus (53 Wohnungen)',
       'images' => [
         '/img/referenzen/pietsch-haustechnik-referenzen-tann-chraehbuehl-01',
         '/img/referenzen/pietsch-haustechnik-referenzen-tann-chraehbuehl-02',

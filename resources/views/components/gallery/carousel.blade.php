@@ -17,8 +17,12 @@
       </x-swiper.slide>
     @endforeach
   </x-swiper.wrapper>
-  <x-swiper.buttons.prev class="z-40" />
-  <x-swiper.buttons.next class="z-40" />
+  @if(count($images) > 1)
+    <x-swiper.buttons.prev class="z-40" />
+    <x-swiper.buttons.next class="z-40" />
+  @endif
   {{ $slot }}
-  <div class="swiper-pagination absolute bottom-15 left-0 right-0 z-40"></div>
+  @if(count($images) > 1)
+    <div class="swiper-pagination absolute bottom-15 left-0 right-0 z-40"></div>
+  @endif
 </div>
