@@ -1,6 +1,6 @@
 @extends('app')
 @section('meta_title', 'Datenschutz')
-@section('meta_description', '')
+@section('meta_description', 'Datenschutzerklärung von Pietsch Haustechnik – Informationen zur Erhebung und Verarbeitung Ihrer Daten auf dieser Website.')
 @section('content')
 
 <section>

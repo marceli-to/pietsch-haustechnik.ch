@@ -1,6 +1,6 @@
 @extends('app')
 @section('meta_title', 'Impressum')
-@section('meta_description', 'Impressum der Pappelstrasse 2/4 in Dietlikon – Angaben zum Betreiber, Design und Entwicklung.')
+@section('meta_description', 'Impressum von Pietsch Haustechnik in Dietlikon – Angaben zum Betreiber sowie zu Design und Entwicklung der Website.')
 @section('content')
 
 <section>

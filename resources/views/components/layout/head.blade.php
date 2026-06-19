@@ -17,13 +17,13 @@
 <meta property="og:title" content="@hasSection('meta_title')@yield('meta_title') – {{ $appName }}@else{{ $appName }}@endif" />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="{{ url()->current() }}" />
-<meta property="og:image" content="{{ asset('opengraph.png') }}" />
+<meta property="og:image" content="{{ asset('opengraph.jpg') }}" />
 <meta property="og:description" content="@yield('meta_description', $defaultDescription)" />
 <meta property="og:site_name" content="{{ $appName }}" />
 <meta property="og:locale" content="de_CH" />
 <meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:title" content="@hasSection('meta_title')@yield('meta_title') – {{ $appName }}@else{{ $appName }}@endif" />
 <meta name="twitter:description" content="@yield('meta_description', $defaultDescription)" />
-<meta name="twitter:image" content="{{ asset('opengraph.png') }}" />
+<meta name="twitter:image" content="{{ asset('opengraph.jpg') }}" />
 @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>

@@ -9,14 +9,12 @@
       {{ $title }}
     </x-headings.h3>
   @endif
-  
+  <x-bar class="h-6 max-w-250 mx-auto my-15" />
   @if($description)
     <p class="text-center text-pretty">
       {{ $description }}
     </p>
   @endif
-  
-  @if(!$last)
-    <x-bar class="h-6 max-w-250 mx-auto mt-30 lg:mt-50" />
-  @endif
+ 
+
 </div>

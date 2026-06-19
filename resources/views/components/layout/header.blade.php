@@ -9,7 +9,7 @@
   @endif
   >
   <x-layout.inner class="px-30 min-h-100 flex justify-between items-center relative">
-    <a href="{{ route('page.landing') }}" class="text-white">
+    <a href="{{ route('page.landing') }}" aria-label="Zurück zur Startseite" class="text-white">
       <x-icons.logo class="w-145 h-auto" variant="neg" />
     </a>
     <x-menu.desktop.wrapper />
@@ -17,7 +17,7 @@
 </header>
 
 <header class="md:hidden h-60 absolute top-70 left-1/2 -translate-x-1/2">
-  <a href="{{ route('page.landing') }}" class="w-161 h-60">
+  <a href="{{ route('page.landing') }}" aria-label="Zurück zur Startseite" class="w-161 h-60">
     <x-icons.logo class="w-full h-auto" variant="pos" />
   </a>  
 </header>
