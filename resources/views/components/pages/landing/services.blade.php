@@ -4,7 +4,7 @@
       <x-headings.h2>
         Dienstleistungen
       </x-headings.h2>
-      <div class="flex flex-col lg:flex-row gap-y-40 lg:gap-y-0 lg:gap-x-64">
+      <div class="flex flex-col lg:grid lg:grid-cols-3 gap-y-40 lg:gap-y-0 lg:gap-x-64">
         <div>
           <x-headings.h3 class="mb-0">
             Sanitär
