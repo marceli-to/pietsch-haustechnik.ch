@@ -1,5 +1,5 @@
 <div
-  class="relative z-20 shrink-0 bg-navy md:bg-transparent text-cloud animate-[fade-in_700ms_1500ms_ease-out_both]">
+  class="relative z-20 shrink-0 bg-navy md:bg-transparent text-cloud md:animate-[fade-in_700ms_1500ms_ease-out_both]">
   <x-layout.inner class="p-30 pt-0 md:p-0 md:pb-72">
     <div class="md:mb-80 hidden md:block">
       <div class="md:max-w-[680px] mx-auto flex flex-col gap-y-20">
