@@ -14,6 +14,5 @@
       height="1080"
       class="w-full h-full object-cover">
   </picture>
-  <x-icons.logo variant="pos" class="relative z-20 md:hidden w-200 h-auto" />
 </div>
 <x-bar class="h-12 md:h-10" />

@@ -40,19 +40,13 @@
     </ul>
   </nav>
 
-  <div class="pb-60 px-30 flex flex-col items-center gap-y-10 text-sm shrink-0">
-    <a
-      href="tel:044 950 04 55"
-      aria-label="Rufen Sie uns an"
-      class="hover:text-sky">
-      044 950 04 55
-    </a>
-    <a
-      href="mailto:info@pietsch-haustechnik.ch"
-      aria-label="Schreiben Sie uns eine E-Mail"
-      class="hover:text-sky">
-      info@pietsch-haustechnik.ch
-    </a>
+  <div class="pb-60 px-30 flex justify-center shrink-0">
+    <x-cards.contact
+      variant="dark"
+      label_phone="Rufen Sie uns an"
+      label_email="Schreiben Sie uns eine E-Mail"
+      phone="044 950 04 55"
+      email="info@pietsch-haustechnik.ch" />
   </div>
 
 </div>

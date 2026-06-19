@@ -12,8 +12,9 @@
         class="w-full h-full aspect-3/4 md:aspect-square object-cover block relative z-0">
     </picture>
 
-    <div class="absolute md:relative md:bg-navy w-full px-30 bottom-25 md:bottom-auto z-10 md:flex md:flex-col md:justify-center text-white">
-      <div data-reveal>
+    <div class="absolute inset-0 bg-gradient-y md:hidden"></div>
+    <div class="absolute md:relative md:bg-navy w-full px-30 bottom-25 md:bottom-auto z-10 md:flex md:flex-col md:justify-center text-white" data-reveal>
+      <div>
         <x-headings.h2 class="text-white">
           Über uns
         </x-headings.h2>
