@@ -1,8 +1,8 @@
 <section>
   <div class="relative md:grid md:grid-cols-2">
     <picture>
-      {{-- <source srcset="/img/{{ $image }}.avif" type="image/avif">
-      <source srcset="/img/{{ $image }}.webp" type="image/webp"> --}}
+      <source srcset="/img/pietsch-haustechnik-visual-about.avif" type="image/avif">
+      <source srcset="/img/pietsch-haustechnik-visual-about.webp" type="image/webp">
       <img
         src="/img/pietsch-haustechnik-visual-about.jpg"
         alt="Pietsch Haustechnik Über uns"
@@ -17,7 +17,7 @@
         <x-headings.h2 class="text-white">
           Über uns
         </x-headings.h2>
-        <p class="text-center max-w-2xl mx-auto">
+        <p class="text-center max-w-lg mx-auto">
           Erfahren Sie mehr über unseren Betrieb, der seit über 25 Jahren für Qualität, Kompetenz und persönliche Beratung steht.
         </p>
         <div class="flex justify-center mt-30 lg:mt-45">

@@ -6,7 +6,7 @@
 ])
 <div class="lg:flex-1 lg:flex lg:flex-col">
   
-  <div class="p-36 lg:flex-1 {{ $variant == 'dark' ? 'bg-navy text-cloud' : 'bg-cloud text-navy' }}">
+  <div class="p-36 lg:flex-1 {{ $variant == 'dark' ? 'bg-navy text-cloud' : 'bg-sky text-navy' }}">
     <div data-reveal>
       @if($title)
         <x-headings.h3 class="mb-5 lg:mb-10">
@@ -28,6 +28,6 @@
     </div>
   </div>
 
-  <x-bar class="h-10 {{ $variant == 'light' ? 'lg:bg-none! lg:bg-cloud!' : '' }}" />
+  <x-bar class="h-10" />
 
 </div>

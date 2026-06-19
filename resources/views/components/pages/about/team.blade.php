@@ -2,14 +2,14 @@
     <x-cards.team_member
       name="Reto Pietsch"
       position="Geschäftsinhaber"
-      image="pietsch-haustechnik-peter-mueller"
+      image="pietsch-haustechnik-reto"
       phone="044 950 04 55"
       email="info@pietsch-haustechnik.ch"
     />
     <x-cards.team_member
       name="Andrin Pietsch"
       position="Eidg. Dipl. Sanitärmeister"
-      image="pietsch-haustechnik-max-mustermann"
+      image="pietsch-haustechnik-andrin"
       phone="044 950 04 55"
       email="info@pietsch-haustechnik.ch"
     />
