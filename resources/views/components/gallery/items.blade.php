@@ -16,16 +16,16 @@
       'title' => 'Heizungsinstallation',
       'meta' => 'Hittnau Laetenstrasse – 2023 bis 2024<br>Mehrfamilienhaus (8 Mietwohnungen)',
       'images' => [
-        '/img/referenzen/pietsch-haustechnik-referenzen-hittnau-laetenstrasse-01',
         '/img/referenzen/pietsch-haustechnik-referenzen-hittnau-laetenstrasse-02',
+        '/img/referenzen/pietsch-haustechnik-referenzen-hittnau-laetenstrasse-01',
       ],
     ],
     [
       'title' => 'Heizungsinstallation',
       'meta' => 'Rüti Sechten – 2018 bis 2020<br>Mehrfamilienhaus (74 Wohnungen)',
       'images' => [
-        '/img/referenzen/pietsch-haustechnik-referenzen-rueti-sechten-01',
         '/img/referenzen/pietsch-haustechnik-referenzen-rueti-sechten-02',
+        '/img/referenzen/pietsch-haustechnik-referenzen-rueti-sechten-01',
       ],
     ],
     [
@@ -39,26 +39,26 @@
       'title' => 'Sanitär- und Heizungsinstallation',
       'meta' => 'Dürnten – 2015 bis 2016<br>Einfamilienhaus',
       'images' => [
+        '/img/referenzen/pietsch-haustechnik-referenzen-duernten-eschberg-04',
         '/img/referenzen/pietsch-haustechnik-referenzen-duernten-eschberg-01',
         '/img/referenzen/pietsch-haustechnik-referenzen-duernten-eschberg-02',
         '/img/referenzen/pietsch-haustechnik-referenzen-duernten-eschberg-03',
-        '/img/referenzen/pietsch-haustechnik-referenzen-duernten-eschberg-04',
       ],
     ],
     [
       'title' => 'Heizungsinstallation',
       'meta' => 'Saland – 2014 bis 2015<br>Wohn- und Gewerbehaus',
       'images' => [
-        '/img/referenzen/pietsch-haustechnik-referenzen-saland-01',
         '/img/referenzen/pietsch-haustechnik-referenzen-saland-02',
+        '/img/referenzen/pietsch-haustechnik-referenzen-saland-01',
       ],
     ],
     [
       'title' => 'Heizungsinstallation',
       'meta' => 'Tann Chrähbühl<br>Mehrfamilienhaus (53 Wohnungen)',
       'images' => [
-        '/img/referenzen/pietsch-haustechnik-referenzen-tann-chraehbuehl-01',
         '/img/referenzen/pietsch-haustechnik-referenzen-tann-chraehbuehl-02',
+        '/img/referenzen/pietsch-haustechnik-referenzen-tann-chraehbuehl-01',
       ],
     ],
   ];
